@@ -1,3 +1,32 @@
-h1{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.hero{
+    background-image: url('../COW.jpg');
+    background-size: cover;
+    background-position: top center;
+    height: 100vh;
+}
+.hero h1{
+    color: brown;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 800px;
+    padding-top: 50px;
+    word-spacing: 60px;
+    font-family: cursive;
+}
+.article{
+    width: 80%;
+    margin: 60px auto;
+    background-color: aqua;
+    padding: 60px;
+    border: 10px yellow solid;
+}
+.article h2{
+    text-align: center;
+    padding-bottom: 20px;
 }
